@@ -1,0 +1,370 @@
+/* ------------- scene 2 Martin ---------*/
+
+.elements__wrapper {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 200px;
+  z-index: 2;
+}
+
+.building-3 {
+transform:scaleY(0.9);
+}
+
+.building-3__front, .building-4__front {
+position: absolute;
+background-color: var(--green-house);
+height: 330px;
+width: 200px;
+clip-path: polygon(0 14%, 41% 0, 41% 100%, 0% 100%);
+margin-left: 300px;
+margin-top: 0px;
+z-index: 2;
+}
+.building-3__side, .building-4__side {
+  position: absolute;
+  background-color: var(--dark-roof);
+  height: 330px;
+  width: 200px;
+  clip-path: polygon(74% 9%, 41% 0, 41% 100%, 74% 100%);
+  margin-left: 300px;
+  margin-top: 0px;
+  z-index: 3;
+
+}
+.building-3__window-1, .building-4__window-1, .building-3__window-2, .building-4__window-2, .building-3__window-3, .building-4__window-3,
+.building-3__window-4, .building-4__window-4, .building-3__window-5, .building-4__window-5, .building-3__window-6, .building-4__window-6,
+.building-3__window-7, .building-4__window-7, .building-3__window-8, .building-4__window-8, .building-4__window-9{
+  background-color: var(--sky-color);
+  height: 200px;
+  width: 20px;
+  margin-left: 310px;
+  margin-top: 90px;
+  position: absolute;
+  z-index: 4;
+  clip-path: polygon(0 0, 3% 0, 3% 100%, 0 100%);
+}
+.building-3__window-2, .building-4__window-2 {
+  margin-left: 325px;
+  margin-top: 80px;
+  height: 210px;
+}
+.building-3__window-3, .building-4__window-3 {
+  margin-left: 340px;
+  margin-top: 70px;
+  height: 220px;
+}
+.building-3__window-4, .building-4__window-4 {
+  margin-left: 355px;
+  margin-top: 60px;
+  height: 230px;
+}
+.building-3__window-5, .building-4__window-5 {
+  margin-left: 370px;
+  margin-top: 50px;
+  height: 240px;
+
+}
+.building-3__window-6, .building-4__window-6 {
+  margin-left: 395px;
+  margin-top: 50px;
+  height: 240px;
+
+}
+.building-3__window-7, .building-4__window-7 {
+  margin-left: 410px;
+  margin-top: 60px;
+  height: 230px;
+  
+}
+.building-3__window-8, .building-4__window-8 {
+  margin-left: 425px;
+  margin-top: 70px;
+  height: 220px;
+}
+.building-4__window-9 {
+  margin-left: 440px;
+  margin-top: 80px;
+  height: 210px;
+}
+
+.building-4__wrapper {
+  position: absolute;
+  margin-left: 130px;
+  margin-top: -60px;
+}
+.building-4__front {
+  background-color: var(--pink-house);
+}
+.building-4__side {
+  background-color: var(--shadow-house);
+}
+
+.tree__wrapper, .tree__wrapper-2, .tree__wrapper-3, .tree__wrapper-4{
+  position: absolute;
+  z-index: 3;
+}
+
+.tree__wrapper{
+  transform: scale(1.5);
+  margin-left: 600px;
+  margin-top: -190px;
+}
+.tree__wrapper-2{
+  transform: scale(1.5);
+  margin-left: 650px;
+  margin-top: -200px;
+}
+.tree__wrapper-3{
+  transform: scale(1.7);
+  margin-left: 700px;
+  margin-top: -290px;
+}
+.tree__wrapper-4{
+  transform: scale(1.5);
+  margin-left: 790px;
+  margin-top: -200px;
+}
+
+.tree-1__circle-1{
+  height: 40px;
+  width: 40px;
+  background-color: #518c5c;
+  border-radius: 50%;
+  margin-left: 200px;
+  margin-top: 270px;
+  position: absolute;
+}
+
+.tree-1__circle-2{
+  height: 30px;
+  width: 30px;
+  background-color: #518c5c;
+  border-radius: 50%;
+  margin-left: 205px;
+  margin-top: 250px;
+  position: absolute;
+}
+
+.tree-1__circle-3{
+  height: 20px;
+  width: 20px;
+  background-color: #518c5c;
+  border-radius: 50%;
+  margin-left: 210px;
+  margin-top: 235px;
+  position: absolute;
+}
+
+.tree-1__branch{
+  height: 60px;
+  width: 5px;
+  background-color: brown;
+  margin-left: 217px;
+  margin-top: 270px;
+  position: absolute;
+}
+
+.tree-2__circle-1{
+  height: 15px;
+  width: 15px;
+  background-color: green;
+  border-radius: 50%;
+  margin-left: 150px;
+  margin-top: 245px;
+  position: absolute;
+}
+
+.tree-2__circle-2{
+  height: 25px;
+  width: 25px;
+  background-color: green;
+  border-radius: 50%;
+  margin-left: 145px;
+  margin-top: 255px;
+  position: absolute;
+}
+
+.tree-2__circle-3{
+  height: 30px;
+  width: 30px;
+  background-color: green;
+  border-radius: 50%;
+  margin-left: 143px;
+  margin-top: 270px;
+  position: absolute;
+}
+
+.tree-2__branch{
+  height: 50px;
+  width: 5px;
+  background-color: brown;
+  margin-left: 155px;
+  margin-top: 270px;
+  position: absolute;
+}
+
+.cloud__wrapper{
+animation-duration: 7s;
+animation-name: cloud-animation;
+animation-direction: alternate;
+transition: background-color 1s;
+position: absolute;
+}
+
+.clouds_scene-2{ 
+background-color: white;
+top: 0;
+left: 0;
+height: 300px;
+width: 300px;
+border-radius: 5px;
+transform: translateY(-300px);
+z-index: -3;
+clip-path: polygon(56% 88%, 20% 88%, 11% 86%, 7% 81%, 6% 75%, 8% 72%, 16% 69%, 22% 70%, 26% 73%, 27% 66%, 28% 61%, 32% 54%, 43% 51%, 49% 55%, 50% 60%, 55% 51%, 63% 60%, 71% 58%, 76% 61%, 77% 69%, 84% 68%, 91% 71%, 96% 77%, 97% 84%, 96% 89%);
+}
+
+
+.bush-3__wrapper, .bush-4__wrapper, .bush-5__wrapper, .bush-6__wrapper {
+  position: absolute;
+  z-index: 3;
+}
+
+.bush-3__wrapper > * {
+  background-color: #a7d1a7;
+}
+.bush-4__wrapper > *{
+  background-color: #418541;
+}
+.bush-5__wrapper > *{
+  background-color: #0a490a;
+}
+.bush-6__wrapper > *{
+  background-color: #418541;
+}
+
+.bush-3__wrapper {
+  transform: scale(2.5);
+  position: absolute;
+  z-index: 6;
+  margin-left: -900px;
+  margin-top: -650px;
+}
+
+.bush-4__wrapper {
+  transform: scale(1);
+  z-index: 7;
+  position: absolute;
+  margin-left: -50px;
+  margin-top: -80px;
+}
+.bush-5__wrapper {
+  transform: scale(1.4);
+  z-index: 6;
+  position: absolute;
+  margin-left: -170px;
+  margin-top: -232px;
+}
+
+.bush-6__wrapper {
+  transform: scale(3);
+  z-index: 0;
+  position: absolute;
+  margin-left: -600px;
+  margin-top: -800px;
+}
+
+.carAnimation {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: #83c5be;
+  border-radius:50%;
+}
+
+.bush-3_box-1{
+  position: absolute;
+  height: 30px;
+  width: 50px;
+  border-radius: 100px 100px 0 0;
+  margin-left: 520px;
+  margin-top: 350px;
+}
+
+.bush-3_box-2{
+  position: absolute;
+  height: 20px;
+  width: 50px;
+  border-radius: 100px 100px 0 0;
+  margin-left: 500px;
+  margin-top: 360px;
+}
+
+.bush-3_box-3{
+  position: absolute;
+  height: 20px;
+  width: 50px;
+  border-radius: 100px 100px 0 0;
+  margin-left: 550px;
+  margin-top: 360px;
+}
+
+.bush-4_box-1{
+  position: absolute;
+  height: 30px;
+  width: 50px;
+  border-radius: 100px 100px 0 0;
+  margin-left: 10px;
+  margin-top: 300px;
+}
+
+.bush-4_box-2{
+  position: absolute;
+  height: 20px;
+  width: 50px;
+  border-radius: 100px 100px 0 0;
+  margin-left: 70px;
+  margin-top: 320px;
+}
+
+.bush-4_box-3{
+  position: absolute;
+  height: 20px;
+  width: 70px;
+  border-radius: 100px 100px 0 0;
+  margin-left: 110px;
+  margin-top: 320px;
+}
+
+.bush-5_box-1{
+  position: absolute;
+  height: 30px;
+  width: 50px;
+  border-radius: 100px 100px 0 0;
+  margin-left: 100px;
+  margin-top: 300px;
+}
+
+.bush-5_box-2{
+  position: absolute;
+  height: 20px;
+  width: 50px;
+  border-radius: 100px 100px 0 0;
+  margin-left: 70px;
+  margin-top: 320px;
+}
+
+.bush-5_box-3{
+  position: absolute;
+  height: 20px;
+  width: 70px;
+  border-radius: 100px 100px 0 0;
+  margin-left: 110px;
+  margin-top: 320px;
+}
+
+
+
+
+
+

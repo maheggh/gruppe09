@@ -1,0 +1,245 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Intersection Observer</title>
+  <meta name="description" content="Intersection Observer">
+  <meta name="author" content="Sabina Niewiadomska">
+
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+  <div class="outer-wrapper">
+    <div class="wrapper">
+
+      <!-- Scene 2 (martin) -->
+      <div class="slide__2">
+        <div class="grass"></div>
+        <div class="sky"></div>
+        <div class="elements__wrapper">
+          <div class="building-3">
+            <div class="building-3__front"></div>
+            <div class="building-3__side"></div>
+            <div class="building-3__window-1"></div>
+            <div class="building-3__window-2"></div>
+            <div class="building-3__window-3"></div>
+            <div class="building-3__window-4"></div>
+            <div class="building-3__window-5"></div>
+            <div class="building-3__window-6"></div>
+            <div class="building-3__window-7"></div>
+            <div class="building-3__window-8"></div>
+          </div>
+
+          <div class="cloud__wrapper">
+            <div class="clouds"></div>
+          </div>
+
+          <div class="bush-3__wrapper">
+            <div class="bush-3_box-1"></div>
+            <div class="bush-3_box-2"></div>
+            <div class="bush-3_box-3"></div>
+          </div>
+
+          <div class="bush-4__wrapper">
+            <div class="bush-3_box-1"></div>
+            <div class="bush-3_box-2"></div>
+            <div class="bush-3_box-3"></div>
+          </div>
+
+          <div class="bush-5__wrapper">
+            <div class="bush-3_box-1"></div>
+            <div class="bush-3_box-2"></div>
+            <div class="bush-3_box-3"></div>
+          </div>
+
+          <div class="bush-6__wrapper">
+            <div class="bush-3_box-1"></div>
+            <div class="bush-3_box-2"></div>
+            <div class="bush-3_box-3"></div>
+          </div>
+
+          <div class="building-4__wrapper">
+            <div class="building-4__front"></div>
+            <div class="building-4__side"></div>
+            <div class="building-4__window-1"></div>
+            <div class="building-4__window-2"></div>
+            <div class="building-4__window-3"></div>
+            <div class="building-4__window-4"></div>
+            <div class="building-4__window-5"></div>
+            <div class="building-4__window-6"></div>
+            <div class="building-4__window-7"></div>
+            <div class="building-4__window-8"></div>
+            <div class="building-4__window-9"></div>
+          </div>
+
+          <div class="tree__wrapper">
+            <div class="tree-1__circle-1"></div>
+            <div class="tree-1__circle-2"></div>
+            <div class="tree-1__circle-3"></div>
+            <div class="tree-1__branch"></div>
+          </div>
+          <div class="tree__wrapper-2">
+            <div class="tree-1__circle-1"></div>
+            <div class="tree-1__circle-2"></div>
+            <div class="tree-1__circle-3"></div>
+            <div class="tree-1__branch"></div>
+          </div>
+          <div class="tree__wrapper-3">
+            <div class="tree-1__circle-1"></div>
+            <div class="tree-1__circle-2"></div>
+            <div class="tree-1__circle-3"></div>
+            <div class="tree-1__branch"></div>
+          </div>
+          <div class="tree__wrapper-4">
+            <div class="tree-1__circle-1"></div>
+            <div class="tree-1__circle-2"></div>
+            <div class="tree-1__circle-3"></div>
+            <div class="tree-1__branch"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Scene 3 (Nora) -->
+
+      <div class="slide__3">
+        <div class="grass"></div>
+        <div class="sky"></div>
+        <div class="elements__wrapper">
+          <div class="building-1__front"></div>
+          <div class="building-1__front-top"></div>
+          <div class="building-1__side"></div>
+          <div class="building-1__side-roof"></div>
+          <div class="building-1__roof"></div>
+          <div class="building-1__top-front"></div>
+          <div class="building-1__top-top"></div>
+          <div class="building-1__top-top-roof"></div>
+          <div class="building-1__window-round"></div>
+          <div class="building-1__window-1"></div>
+          <div class="building-1__window-2"></div>
+          <div class="building-1__window-3"></div>
+          <div class="building-1__window-4"></div>
+          <div class="building-1__window-5"></div>
+
+          <div class="building-2__front"></div>
+          <div class="building-2__front-top"></div>
+          <div class="building-2__side"></div>
+          <div class="building-2__side-roof"></div>
+          <div class="building-2__roof"></div>
+          <div class="building-2__window-1"></div>
+          <div class="building-2__window-2"></div>
+          <div class="building-2__window-3"></div>
+          <div class="building-2__window-4"></div>
+          <div class="building-2__window-5"></div>
+          <div class="building-2__window-6"></div>
+          <div class="tree__wrapper">
+            <div class="tree-1__circle-1"></div>
+            <div class="tree-1__circle-2"></div>
+            <div class="tree-1__circle-3"></div>
+            <div class="tree-1__branch"></div>
+          </div>
+
+          <div class="tree-2__circle-1"></div>
+          <div class="tree-2__circle-2"></div>
+          <div class="tree-2__circle-3"></div>
+          <div class="tree-2__branch"></div>
+        </div>
+      </div>
+
+      <!-- Scene 4 (Guro) -->
+
+      <div class="slide__4">
+        <div class="grass"></div>
+        <div class="sky"></div>
+        <div class="elements__wrapper">
+          <div class="starts">
+            <div class="build1">
+              <div class="build1__1">
+              </div>
+              <div class="wind2__1">
+              </div>
+              <div class="wind2__2">
+              </div>
+              <div class="wind2__3">
+              </div>
+              <div class="wind2__4">
+              </div>
+              <div class="build1__2">
+                <div class="wind1__1">
+                </div>
+                <div class="wind1__2">
+                </div>
+                <div class="wind1__2_2">
+                </div>
+                <div class="wind1__3">
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="build2">
+            <div class="roof1">
+            </div>
+            <div class="roof1__2">
+            </div>
+            <div class="build2__1">
+            </div>
+            <div class="build2__2">
+            </div>
+            <div class="wind3__1">
+            </div>
+            <div class="wind3__2">
+            </div>
+            <div class="wind3__3">
+            </div>
+            <div class="wind3__4">
+            </div>
+            <div class="build3">
+              <div class="roof2">
+              </div>
+              <div class="build3__1">
+              </div>
+              <div class="wind5__1">
+              </div>
+              <div class="wind5__2">
+              </div>
+              <div class="wind5__3">
+              </div>
+              <div class="wind5__4">
+              </div>
+              <div class="wind5__5">
+              </div>
+              <div class="wind5__6">
+              </div>
+              <div class="build3__2">
+              </div>
+              <div class="wind4__1">
+              </div>
+              <div class="wind4__2">
+              </div>
+              <div class="wind4__3">
+              </div>
+              <div class="wind4__4">
+              </div>
+              <div class="wind4__5">
+              </div>
+              <div class="wind4__6">
+              </div>
+              <div class="wind4__7">
+              </div>
+              <div class="wind4__8">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./intersectionObserverTemplate.js"></script>
+</body>
+
+</html>
